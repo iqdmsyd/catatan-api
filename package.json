@@ -1,0 +1,25 @@
+{
+  "name": "catatan-api",
+  "version": "1.0.0",
+  "description": "project aplikasi catatan sederhana",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iqdmsyd",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.16",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^8.5.1",
+    "restify-errors": "^8.0.2",
+    "restify-jwt-community": "^1.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
