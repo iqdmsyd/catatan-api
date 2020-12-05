@@ -17,7 +17,7 @@ let options = {
 
 // Start server
 server.listen(config.PORT, () => {
-  mongoose.connect(config.MONGODB_URI, options);
+  mongoose.connect(process.env.MONGODB_URI, options);
 });
 
 server.get("/", async (req, res, next) => {
