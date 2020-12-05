@@ -1,6 +1,6 @@
 const restify = require("restify");
 const mongoose = require("mongoose");
-const config = require("./config/config");
+const config = require("./configs/config");
 
 // Create server
 const server = restify.createServer();

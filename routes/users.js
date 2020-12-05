@@ -4,7 +4,7 @@ const jwt = require("jsonwebtoken");
 
 const User = require("../models/User");
 const auth = require("./auth");
-const config = require("../config/config");
+const config = require("../configs/config");
 
 module.exports = (server) => {
   // Get users [development only]

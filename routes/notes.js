@@ -2,7 +2,7 @@ const errors = require("restify-errors");
 const jwt = require("jsonwebtoken");
 const rjwt = require("restify-jwt-community");
 const Note = require("../models/Note");
-const config = require("../config/config");
+const config = require("../configs/config");
 
 module.exports = (server) => {
   // Get all notes [development only]
