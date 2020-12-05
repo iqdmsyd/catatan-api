@@ -1,16 +1,16 @@
 const errors = require("restify-errors");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
+
 const User = require("../models/User");
 const auth = require("./auth");
 const config = require("../config/config");
 
 module.exports = (server) => {
-  // Get users
+  // Get users [development only]
   server.get("/api/users", async (req, res, next) => {
     try {
       const users = await User.find();
-      console.log("getting users..");
       res.send(users);
       next();
     } catch (err) {
@@ -22,7 +22,6 @@ module.exports = (server) => {
   server.post("/api/register", async (req, res, next) => {
     const { username, password } = req.body;
     let user = await User.findOne({ username });
-    // If username already exist
     if (user) next(new errors.InvalidContentError("Username already exist."));
 
     user = new User({
@@ -30,21 +29,16 @@ module.exports = (server) => {
       password,
     });
 
-    // Generate salt
-    bcrypt.genSalt(10, (err, salt) => {
-      bcrypt.hash(user.password, salt, async (err, hash) => {
-        // Hash password
-        user.password = hash;
-        // Save user
-        try {
-          const newUser = await user.save();
-          res.send(201);
-          next();
-        } catch (err) {
-          return next(new errors.InternalError(err.message));
-        }
-      });
-    });
+    const hash = await auth.generateSalt(user.password);
+    user.password = hash;
+
+    try {
+      const newUser = await user.save();
+      res.send(201);
+      next();
+    } catch (err) {
+      return next(new errors.InternalServerError());
+    }
   });
 
   // Authenticate user
@@ -52,16 +46,18 @@ module.exports = (server) => {
     const { username, password } = req.body;
 
     try {
-      // Auth user using imported function authenticate()
       const user = await auth.authenticate(username, password);
+      const userInfo = {
+        _id: user._id,
+        username: user.username,
+      };
 
-      // Create JWT
-      const token = jwt.sign(user.toJSON(), config.JWT_SECRET);
-      res.send(token);
-      next();
+      jwt.sign(JSON.stringify(userInfo), config.JWT_SECRET, (err, token) => {
+        res.send(token);
+        next();
+      });
     } catch (err) {
-      // User unauthorized
-      return next(new errors.UnauthorizedError());
+      return next(new errors.UnauthorizedError("Authentication failed."));
     }
   });
 };

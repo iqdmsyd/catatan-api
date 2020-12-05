@@ -1,3 +1,3 @@
-# README
+# Catatan
 
 Mini project aplikasi catatan.

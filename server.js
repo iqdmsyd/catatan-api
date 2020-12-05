@@ -7,10 +7,12 @@ const server = restify.createServer();
 
 // Create middleware
 server.use(restify.plugins.bodyParser());
+server.use(restify.plugins.queryParser());
 
 let options = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  useFindAndModify: false,
 };
 
 // Start server
