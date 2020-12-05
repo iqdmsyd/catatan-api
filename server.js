@@ -20,6 +20,10 @@ server.listen(config.PORT, () => {
   mongoose.connect(config.MONGODB_URI, options);
 });
 
+server.get("/", async (req, res, next) => {
+  res.send(200, "Hello World.");
+});
+
 const db = mongoose.connection;
 
 // DB error handler
