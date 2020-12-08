@@ -1,0 +1,1182 @@
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:06:08.534Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:11:42.049Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:11:47.060Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:12:14.680Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:12:22.590Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:14:21.208Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:15:49.154Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:17:17.298Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:18:16.637Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:19:40.209Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:22:22.083Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:22:25.338Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:23:29.368Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:23:32.104Z'
+}
+{
+  message: 'Hello Nur fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:23:36.034Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:25:00.782Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:25:04.376Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:27:28.444Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:27:31.705Z'
+}
+{
+  message: 'Hello Nur fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:27:44.996Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:27:58.450Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:28:01.340Z'
+}
+{
+  message: 'Hello Nur fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:28:03.987Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:31:25.856Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:31:28.960Z'
+}
+{
+  message: 'Hello Nur fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:31:32.814Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:31:48.666Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:31:51.573Z'
+}
+{
+  message: 'Hello Nur fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:31:57.051Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:34:27.168Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:34:30.949Z'
+}
+{
+  message: 'Hello Nur fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:34:36.140Z'
+}
+{
+  message: 'All user fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:34:41.011Z'
+}
+{
+  message: 'User fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:35:41.502Z'
+}
+{
+  message: 'User with username - iqdamr does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:35:45.820Z'
+}
+{
+  message: 'All user fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T10:36:09.293Z'
+}
+{
+  message: 'Database connection disconnected',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T11:12:04.062Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T11:12:14.359Z'
+}
+{
+  message: 'Database connection disconnected',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T11:59:39.277Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T11:59:49.423Z'
+}
+{
+  message: 'Database connection disconnected',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:34:49.200Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:34:59.307Z'
+}
+{
+  message: 'Database connection disconnected',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:46:07.064Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:46:17.311Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:47:37.324Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:47:40.755Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:50:43.226Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:51:21.205Z'
+}
+{
+  message: 'Hello Nur fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:51:37.340Z'
+}
+{
+  message: 'All user fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:51:51.145Z'
+}
+{
+  message: 'User with username - winda already exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:53:57.615Z'
+}
+{
+  message: 'All user fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:55:10.453Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:55:40.499Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:55:43.336Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:56:51.635Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:56:55.493Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:58:59.734Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:59:04.277Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:59:53.639Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T12:59:56.192Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:00:21.662Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:00:24.922Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:00:56.230Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:01:00.233Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:01:03.970Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:01:52.829Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:01:55.862Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:01:58.890Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:33:11.360Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:34:25.962Z'
+}
+{
+  message: 'User with username - winda already exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:34:34.216Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:34:48.631Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:38:06.118Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:38:11.407Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:39:32.845Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:41:33.778Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:41:42.077Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:41:44.892Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:51:28.012Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:51:31.533Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:52:59.220Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:53:07.077Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:53:08.883Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:53:28.238Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:53:31.784Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:53:36.438Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:54:30.322Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:54:34.671Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:54:40.701Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:56:37.735Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:56:40.464Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:57:41.421Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:58:36.538Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:58:56.148Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:59:10.888Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T13:59:10.910Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:01:25.999Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:01:26.005Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:03:45.181Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:03:48.385Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:03:56.639Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:03:56.660Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:04:18.280Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:04:21.016Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:04:24.343Z'
+}
+{
+  message: 'User with username - Iqdam already exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:04:24.357Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:04:30.184Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:04:30.197Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:05:15.000Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:05:18.869Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:05:24.794Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:05:24.815Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:09:01.888Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:09:07.004Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:10:55.217Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:10:55.237Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:12:36.769Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:12:39.867Z'
+}
+{
+  level: 'info',
+  message: 'Validation error - %s',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:12:43.189Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:13:34.059Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:13:39.321Z'
+}
+{
+  message: 'Validation error - "username" length must be at least 4 characters long',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:13:43.688Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:16:06.206Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:19:19.666Z'
+}
+{
+  message: 'Validation error - "username" length must be at least 4 characters long',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:19:23.628Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:19:49.739Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:19:49.760Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:20:03.721Z'
+}
+{
+  message: 'User with username - Delima already exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:20:03.726Z'
+}
+{
+  message: 'Validation error - "password" is required',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:20:24.109Z'
+}
+{
+  message: 'Validation error - "value" must be of type object',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:22:14.856Z'
+}
+{
+  message: 'Validation error - "username" is required',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:22:36.940Z'
+}
+{
+  message: 'Validation error - "username" is required',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:24:13.645Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:27:37.474Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:27:37.478Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:27:57.069Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:27:59.566Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:28:06.619Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:28:06.640Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:31:11.439Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:31:16.963Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:31:21.590Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:31:21.610Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:31:54.960Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:31:59.028Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:32:02.573Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:32:02.597Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:34:02.093Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:41:11.268Z'
+}
+{
+  message: 'Validation error - "username" must only contain lowercase characters',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:41:17.825Z'
+}
+{
+  message: 'All user fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:41:40.326Z'
+}
+{
+  message: 'Empty request body was sent',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T14:42:25.145Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:11:13.650Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:11:16.831Z'
+}
+{
+  message: 'All user fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:11:37.765Z'
+}
+{
+  message: 'Empty request body was sent',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:11:54.686Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:12:10.130Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:12:10.143Z'
+}
+{
+  message: 'All user fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:12:14.619Z'
+}
+{
+  message: 'User fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:13:19.507Z'
+}
+{
+  message: 'User fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:13:25.326Z'
+}
+{
+  message: 'User with username - s does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:13:28.508Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:15:33.907Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:16:04.428Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:16:45.026Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:16:47.954Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:19:09.152Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:19:11.879Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:19:55.556Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:19:58.611Z'
+}
+{
+  message: 'User with username - sfad does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:20:09.916Z'
+}
+{
+  message: 'User with username - adfadfa does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:20:21.781Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:22:27.818Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:22:30.746Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:25:37.802Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:25:40.422Z'
+}
+{
+  message: 'Route contains unsupported validation key',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:25:46.853Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:26:32.488Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:26:37.815Z'
+}
+{
+  message: 'Validation error - "title" is not allowed to be empty',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:26:55.633Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:27:08.060Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:27:10.709Z'
+}
+{
+  message: 'Validation error - "title" is not allowed to be empty',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:27:13.259Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:27:21.167Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:27:23.688Z'
+}
+{
+  message: 'Validation error - "title" is not allowed to be empty',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:27:25.639Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:27:38.729Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:27:50.880Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:28:04.558Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:28:10.264Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:28:18.654Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:28:42.463Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:28:44.992Z'
+}
+{
+  message: 'Validation error - "content" is required',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:28:48.243Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:29:00.960Z'
+}
+{
+  message: 'Empty request body was sent',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:29:09.936Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T15:30:15.480Z'
+}
