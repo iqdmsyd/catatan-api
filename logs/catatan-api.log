@@ -1180,3 +1180,435 @@
   label: 'Catatan API',
   timestamp: '2020-12-08T15:30:15.480Z'
 }
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:26:53.575Z'
+}
+{
+  message: 'User with username - iqdam does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:26:57.823Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:27:10.511Z'
+}
+{
+  message: 'User created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:27:10.529Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:27:33.396Z'
+}
+{
+  message: 'Note created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:27:33.402Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:27:50.121Z'
+}
+{
+  message: 'Note created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:27:50.125Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:28:01.536Z'
+}
+{
+  message: 'Note created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:28:01.540Z'
+}
+{
+  message: 'Note fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:28:14.874Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:51:50.571Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:51:56.642Z'
+}
+{
+  message: 'Note fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:52:02.399Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:55:47.216Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:55:52.514Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:56:56.643Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:57:01.136Z'
+}
+{
+  message: 'Note updated successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:57:04.982Z'
+}
+{
+  message: 'Note fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:57:11.324Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:58:12.888Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:58:16.596Z'
+}
+{
+  message: 'Note updated successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:58:19.624Z'
+}
+{
+  message: 'Note fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:58:22.958Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:59:14.116Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T17:59:16.835Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:00:02.528Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:01:06.500Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:02:30.731Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:02:49.290Z'
+}
+{
+  message: 'Note updated successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:03:19.841Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:03:47.475Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:03:50.311Z'
+}
+{
+  message: 'Note with username - iqdam and note_id - 5fcfb78585ab574a946de6b4adfad does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:03:54.915Z'
+}
+{
+  message: 'Note with username - iqdam and note_id - 5fcfb78585ab574a946de6b4 does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:04:38.867Z'
+}
+{
+  message: 'Note updated successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:04:38.868Z'
+}
+{
+  message: 'Note with username - iqdam and note_id - 5fcfb78585ab574a946de6b4da does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:04:50.435Z'
+}
+{
+  message: 'Note with username - iqdam and note_id - 5fcfb78585ab574a946de6b4dasd does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:05:21.967Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:07:52.958Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:07:55.745Z'
+}
+{
+  message: 'Note with username - iqdam and note_id - 5fcfb78585ab574a946de6b4dasd does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:07:59.105Z'
+}
+{
+  message: 'Note with username - iqdam and note_id - 5fcfb78585ab574a946de6b4dasd does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:08:16.683Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:11:37.727Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:11:40.837Z'
+}
+{
+  message: 'Note with username - iqdam and note_id - 5fcfb78585ab574a946de6b4dasd does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:11:44.963Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:13:35.058Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:13:37.858Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:14:43.224Z'
+}
+{
+  message: 'Note with username - iqdam and note_id - 5fcfb78585ab574a946de6b4dasd does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:14:45.918Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:15:24.591Z'
+}
+{
+  message: 'Note with username - iqdam and note_id - 5fcfb78585ab574a946de6b4dasd does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:15:30.275Z'
+}
+{
+  message: 'Note with username - iqdam and note_id - 5fcfb78585ab574a946de6b4 does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:16:04.705Z'
+}
+{
+  message: 'Note updated successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:16:04.707Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:18:00.793Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:18:04.310Z'
+}
+{
+  message: 'Validation error - "content" is required',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:18:11.634Z'
+}
+{
+  message: 'Validation error - "title" is required',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:18:21.069Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:18:29.227Z'
+}
+{
+  message: 'Note with username - iqdam and note_id - 5fcfb78585ab574a946de6b4 does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:18:29.243Z'
+}
+{
+  message: 'Note updated successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:18:29.253Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:18:36.432Z'
+}
+{
+  message: 'Note with username - iqdam and note_id - 5fcfb78585ab574a946de6b4 does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:18:36.436Z'
+}
+{
+  message: 'Note updated successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:18:36.457Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:19:44.205Z'
+}
+{
+  message: 'Note created successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:19:44.217Z'
+}
+{
+  message: 'Note fetched successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:20:54.408Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:25:08.736Z'
+}
+{
+  message: 'Database connection was successfull',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:25:12.028Z'
+}
+{
+  message: 'Successfully validated request parameters',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:25:30.376Z'
+}
+{
+  message: 'Note with username - iqdam and note_id - 5fcfb78585ab574a946de6b4 does not exists',
+  level: 'error',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:25:30.391Z'
+}
+{
+  message: 'Note updated successfully',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:25:30.400Z'
+}
+{
+  message: 'Database Connection closed due to NodeJS process termination',
+  level: 'info',
+  label: 'Catatan API',
+  timestamp: '2020-12-08T18:28:09.979Z'
+}

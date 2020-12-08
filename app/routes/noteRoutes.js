@@ -22,4 +22,17 @@ module.exports.register = (server, serviceLocator) => {
     },
     (req, res, next) => serviceLocator.get("noteController").get(req, res, next)
   );
+
+  server.put(
+    {
+      path: "/api/notes/:username/:note_id",
+      name: "Update User Note",
+      version: "1.0.0",
+      validation: {
+        body: require("../validations/create_note"),
+      },
+    },
+    (req, res, next) =>
+      serviceLocator.get("noteController").update(req, res, next)
+  );
 };
