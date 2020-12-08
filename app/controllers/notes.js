@@ -37,6 +37,18 @@ class NoteController {
       res.send(err);
     }
   }
+
+  async delete(req, res) {
+    try {
+      const { username, note_id } = req.params;
+      const { body } = req;
+      const result = await this.noteService.deleteNote(username, note_id, body);
+
+      res.send(result);
+    } catch (err) {
+      res.send(err);
+    }
+  }
 }
 
 module.exports = NoteController;

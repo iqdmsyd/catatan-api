@@ -12,6 +12,7 @@ class Database {
     this.mongoose.connect(uri, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
+      useFindAndModify: false,
     });
 
     const { connection } = this.mongoose;

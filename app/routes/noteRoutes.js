@@ -35,4 +35,14 @@ module.exports.register = (server, serviceLocator) => {
     (req, res, next) =>
       serviceLocator.get("noteController").update(req, res, next)
   );
+
+  server.del(
+    {
+      path: "/api/notes/:username/:note_id",
+      name: "Delete User Note",
+      version: "1.0.0",
+    },
+    (req, res, next) =>
+      serviceLocator.get("noteController").delete(req, res, next)
+  );
 };

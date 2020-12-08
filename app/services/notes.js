@@ -47,8 +47,8 @@ class NoteService {
   async updateNote(username, note_id, body) {
     const { title, content } = body;
     const Users = this.mongoose.model("Users");
-    const result = await Users.updateOne(
-      { username },
+    const result = await Users.findOneAndUpdate(
+      { username, "notes._id": note_id },
       {
         $set: {
           "notes.$[elem].title": title,
@@ -59,7 +59,7 @@ class NoteService {
         arrayFilters: [{ "elem._id": note_id }],
       },
       (e) => {
-        // TODO: THROW THIS ERR INSTEAD OF ERROR FROM MONGOOSE
+        // TODO: Throw this errs instead of error from mongoose
         const err = new this.errs.NotFoundError(
           `Note with username - ${username} and note_id - ${note_id} does not exists`
         );
@@ -69,11 +69,33 @@ class NoteService {
     );
 
     this.log.info("Note updated successfully");
-    const user = await Users.findOne(
+    return result;
+  }
+
+  async deleteNote(username, note_id) {
+    const Users = this.mongoose.model("Users");
+
+    const result = await Users.findOneAndUpdate(
       { username, "notes._id": note_id },
-      { _id: 0, "notes.$": 1 }
+      {
+        $pull: { notes: { _id: note_id } },
+      },
+      (e) => {
+        // TODO: Throw this errs instead of error from mongoose
+        const err = new this.errs.NotFoundError(
+          `Note with username - ${username} and note_id - ${note_id} does not exists`
+        );
+        this.log.error(err.message);
+        return err;
+      }
     );
-    return user;
+
+    // TODO: Mongoose still returning ok even the id is not present anymore
+    console.log(result);
+    if (!result) {
+      this.log.info("Note deleted successfully");
+      return { deleted: 1 };
+    }
   }
 }
 

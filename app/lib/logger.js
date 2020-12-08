@@ -13,13 +13,13 @@ const createTransport = (config) => {
     );
   }
 
-  if (config.console) {
-    customTransport.push(
-      new transports.Console({
-        level: config.level,
-      })
-    );
-  }
+  // if (config.console) {
+  //   customTransport.push(
+  //     new transports.Console({
+  //       level: config.level,
+  //     })
+  //   );
+  // }
 
   return customTransport;
 };
