@@ -13,6 +13,7 @@ class Database {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useFindAndModify: false,
+      useCreateIndex: true,
     });
 
     const { connection } = this.mongoose;
