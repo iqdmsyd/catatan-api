@@ -1,14 +1,43 @@
 class UserService {
-  constructor(log, mongoose, httpStatus, errs) {
+  constructor(log, mongoose, httpStatus, errs, bcrypt) {
     this.log = log;
     this.mongoose = mongoose;
     this.httpStatus = httpStatus;
     this.errs = errs;
+    this.bcrypt = bcrypt;
+  }
+
+  async hashPassword(password) {
+    const salt = this.bcrypt.genSaltSync(10);
+    const hash = this.bcrypt.hashSync(password, salt);
+    return hash;
+  }
+
+  async authenticateUser(body) {
+    const Users = this.mongoose.model("Users");
+    const { username, password } = body;
+    const user = await Users.findOne({ username });
+
+    if (!user) {
+      const err = new this.errs.UnauthorizedError(`Authentication failed`);
+      this.log.error(err.message);
+      return err;
+    }
+
+    const isMatch = this.bcrypt.compareSync(password, user.password);
+    if (isMatch) {
+      this.log.info("User authentication success");
+      return user;
+    } else {
+      const err = new this.errs.UnauthorizedError(`Authentication failed`);
+      this.log.error(err.message);
+      return err;
+    }
   }
 
   async createUser(body) {
     const Users = this.mongoose.model("Users");
-    const { username } = body;
+    const { username, password } = body;
     const user = await Users.findOne({ username });
 
     if (user) {
@@ -19,16 +48,20 @@ class UserService {
       return err;
     }
 
-    let newUser = new Users(body);
-    newUser = await newUser.save();
+    const newUser = new Users({ username, password });
+    newUser.password = await this.hashPassword(password);
+    let result = await newUser.save();
 
     this.log.info("User created successfully");
-    return newUser;
+    return result;
   }
 
   async getUser(username) {
     const Users = this.mongoose.model("Users");
-    const user = await Users.findOne({ username });
+    const user = await Users.findOne(
+      { username },
+      { _id: 0, username: 1, notes: 1 }
+    );
 
     if (!user) {
       const err = new this.errs.NotFoundError(
@@ -44,7 +77,7 @@ class UserService {
 
   async getAllUser() {
     const Users = this.mongoose.model("Users");
-    const users = await Users.find();
+    const users = await Users.find({}, { username: 1, notes: 1 });
 
     if (!users) {
       const err = new this.errs.NotFoundError(`Can not find any user`);

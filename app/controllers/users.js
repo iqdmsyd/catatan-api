@@ -14,6 +14,17 @@ class UserController {
     }
   }
 
+  async auth(req, res) {
+    try {
+      const { body } = req;
+      const result = await this.userService.authenticateUser(body);
+
+      res.send(result);
+    } catch (err) {
+      res.send(err);
+    }
+  }
+
   async get(req, res) {
     try {
       const { username } = req.params;

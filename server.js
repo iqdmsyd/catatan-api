@@ -1,13 +1,13 @@
 const restify = require("restify");
+const versioning = require("restify-url-semver");
 const config = require("./app/configs/config");
 
 // Require DI
 const serviceLocator = require("./app/configs/di");
 const logger = serviceLocator.get("logger");
 const joi = serviceLocator.get("joi");
-
 const validator = require("./app/lib/validator");
-
+const handler = require("./app/lib/error_handler");
 const userRoutes = require("./app/routes/userRoutes");
 const noteRoutes = require("./app/routes/noteRoutes");
 
@@ -24,16 +24,20 @@ const server = restify.createServer({
 const Database = require("./app/configs/database");
 new Database(config.mongodb.URI);
 
-// Allow trailing slashes
+// Allow trailing slashes & API versioning
 server.pre(restify.pre.sanitizePath());
+// server.pre(versioning({ prefix: "/" }));
 
-// Create middleware
+// Register middleware
 server.use(restify.plugins.acceptParser(server.acceptable));
 server.use(restify.plugins.queryParser());
 server.use(restify.plugins.bodyParser({ mapParams: false }));
 server.use(validator.paramValidation(logger, joi));
 
-// Setup routes
+// Register error handler
+handler.register(server);
+
+// Register routes
 userRoutes.register(server, serviceLocator);
 noteRoutes.register(server, serviceLocator);
 
