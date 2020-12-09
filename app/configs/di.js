@@ -21,14 +21,19 @@ serviceLocator.register("joi", () => {
   return require("joi");
 });
 
+serviceLocator.register("bcrypt", () => {
+  return require("bcryptjs");
+});
+
 serviceLocator.register("userService", (serviceLocator) => {
   const log = serviceLocator.get("logger");
   const mongoose = serviceLocator.get("mongoose");
   const httpStatus = serviceLocator.get("httpStatus");
   const errs = serviceLocator.get("errs");
+  const bcrypt = serviceLocator.get("bcrypt");
 
   const UserService = require("../services/users");
-  return new UserService(log, mongoose, httpStatus, errs);
+  return new UserService(log, mongoose, httpStatus, errs, bcrypt);
 });
 
 serviceLocator.register("userController", (serviceLocator) => {

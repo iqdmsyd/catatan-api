@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prod": "set NODE_ENV=production&& node server.js",
-    "dev": "set NODE_ENV=development&& node server.js",
+    "dev": "set NODE_ENV=development&& nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "iqdmsyd",
@@ -20,6 +20,7 @@
     "restify": "^8.5.1",
     "restify-errors": "^8.0.2",
     "restify-jwt-community": "^1.1.6",
+    "restify-url-semver": "^1.1.1",
     "winston": "^3.3.3"
   },
   "devDependencies": {
