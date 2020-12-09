@@ -47,54 +47,65 @@ class NoteService {
   async updateNote(username, note_id, body) {
     const { title, content } = body;
     const Users = this.mongoose.model("Users");
-    const result = await Users.findOneAndUpdate(
-      { username, "notes._id": note_id },
-      {
-        $set: {
-          "notes.$[elem].title": title,
-          "notes.$[elem].content": content,
+    const err = new this.errs.NotFoundError(
+      `Note with username - ${username} and note_id - ${note_id} does not exists`
+    );
+
+    // Match note._id typeof
+    if (note_id.match(/^[0-9a-fA-F]{24}$/)) {
+      const result = await Users.findOneAndUpdate(
+        { username, "notes._id": note_id },
+        {
+          $set: {
+            "notes.$[elem].title": title,
+            "notes.$[elem].content": content,
+          },
         },
-      },
-      {
-        arrayFilters: [{ "elem._id": note_id }],
-      },
-      (e) => {
-        // TODO: Throw this errs instead of error from mongoose
-        const err = new this.errs.NotFoundError(
-          `Note with username - ${username} and note_id - ${note_id} does not exists`
-        );
+        {
+          arrayFilters: [{ "elem._id": note_id }],
+          new: true,
+        }
+      );
+
+      if (!result) {
         this.log.error(err.message);
         return err;
       }
-    );
 
-    this.log.info("Note updated successfully");
-    return result;
+      this.log.info("Note updated successfully");
+      return result;
+    } else {
+      this.log.error(err.message);
+      return err;
+    }
   }
 
   async deleteNote(username, note_id) {
     const Users = this.mongoose.model("Users");
+    const err = new this.errs.NotFoundError(
+      `Note with username - ${username} and note_id - ${note_id} does not exists`
+    );
 
-    const result = await Users.findOneAndUpdate(
-      { username, "notes._id": note_id },
-      {
-        $pull: { notes: { _id: note_id } },
-      },
-      (e) => {
-        // TODO: Throw this errs instead of error from mongoose
-        const err = new this.errs.NotFoundError(
-          `Note with username - ${username} and note_id - ${note_id} does not exists`
-        );
+    // Match note._id typeof
+    if (note_id.match(/^[0-9a-fA-F]{24}$/)) {
+      const result = await Users.findOneAndUpdate(
+        { username, "notes._id": note_id },
+        {
+          $pull: { notes: { _id: note_id } },
+        },
+        {
+          new: true,
+        }
+      );
+      if (!result) {
         this.log.error(err.message);
         return err;
       }
-    );
-
-    // TODO: Mongoose still returning ok even the id is not present anymore
-    console.log(result);
-    if (!result) {
       this.log.info("Note deleted successfully");
-      return { deleted: 1 };
+      return result;
+    } else {
+      this.log.error(err.message);
+      return err;
     }
   }
 }
