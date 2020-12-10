@@ -1,0 +1,115 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <style>
+      td {
+        padding: 5px;
+      }
+    </style>
+    <title>Catatan API</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div>
+        <h1>Catatan API</h1>
+        <p>Mini project REST API to serve Catatan App.</p>
+        <br />
+        <br />
+      </div>
+
+      <div>
+        <h3>Resources</h3>
+        <p>
+          In order to be able to write, update and delete your notes, first you
+          need to register as user.
+        </p>
+        <table>
+          <tbody>
+            <tr>
+              <td>/users</td>
+            </tr>
+            <tr>
+              <td>/notes</td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <br />
+      </div>
+
+      <div>
+        <h3>Routes</h3>
+        <table>
+          <tbody>
+            <tr>
+              <td>GET</td>
+              <td>/users</td>
+            </tr>
+            <tr>
+              <td>GET</td>
+              <td>/users/:username</td>
+            </tr>
+            <tr>
+              <td>POST</td>
+              <td>/users/register</td>
+            </tr>
+            <tr>
+              <td>POST</td>
+              <td>/users/login</td>
+            </tr>
+            <tr>
+              <td>PUT</td>
+              <td>/users/:username</td>
+            </tr>
+            <tr>
+              <td>DELETE</td>
+              <td>/users/:username</td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <td>GET</td>
+              <td>/notes</td>
+            </tr>
+            <tr>
+              <td>GET</td>
+              <td>/notes/:id</td>
+            </tr>
+            <tr>
+              <td>POST</td>
+              <td>/notes</td>
+            </tr>
+            <tr>
+              <td>PUT</td>
+              <td>/notes/:id</td>
+            </tr>
+            <tr>
+              <td>DELETE</td>
+              <td>/notes/:id</td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <p><b>Note:</b> See guide for usage example.</p>
+        <br />
+      </div>
+
+      <footer>
+        <p>
+          Stack used are Restify, MongoDB, JWT. Find me at
+          <a href="https://www.github.com/iqdmsyd" target="_blank">github</a>.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

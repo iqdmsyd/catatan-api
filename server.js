@@ -1,6 +1,7 @@
 const restify = require("restify");
 const versioning = require("restify-url-semver");
 const config = require("./app/configs/config");
+const fs = require("fs");
 
 // Require DI
 const serviceLocator = require("./app/configs/di");
@@ -17,6 +18,7 @@ const server = restify.createServer({
   version: ["1.0.0"],
   formatters: {
     "application/json": require("./app/lib/jsend"),
+    "text/html": require("./app/lib/html_send"),
   },
 });
 
@@ -43,9 +45,19 @@ noteRoutes.register(server, serviceLocator);
 
 // Home
 server.get("/", (req, res, next) => {
-  logger.info("Hello Nur fetched successfully");
-  res.send(200, "Hello Nur.");
-  next();
+  fs.readFile("./app/docs/index.html", "utf8", (err, file) => {
+    try {
+      res.writeHead(200, {
+        "Content-Length": Buffer.byteLength(file),
+        "Content-Type": "text/html",
+      });
+      res.write(file);
+      res.end();
+    } catch (err) {
+      res.send(500, err);
+      next();
+    }
+  });
 });
 
 // Start server
