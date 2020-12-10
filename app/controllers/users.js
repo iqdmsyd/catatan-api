@@ -25,6 +25,16 @@ class UserController {
     }
   }
 
+  async getAll(req, res) {
+    try {
+      const result = await this.userService.getAllUser();
+
+      res.send(result);
+    } catch (err) {
+      res.send(err);
+    }
+  }
+
   async get(req, res) {
     try {
       const { username } = req.params;
@@ -36,9 +46,22 @@ class UserController {
     }
   }
 
-  async getAll(req, res) {
+  async update(req, res) {
     try {
-      const result = await this.userService.getAllUser();
+      const { username } = req.params;
+      const { body } = req;
+      const result = await this.userService.updateUser(username, body);
+
+      res.send(result);
+    } catch (err) {
+      res.send(err);
+    }
+  }
+
+  async delete(req, res) {
+    try {
+      const { username } = req.params;
+      const result = await this.userService.deleteUser(username);
 
       res.send(result);
     } catch (err) {

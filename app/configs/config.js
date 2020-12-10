@@ -11,6 +11,7 @@ module.exports = {
     HOST: process.env.APP_HOST,
     PORT: process.env.APP_PORT,
     ENV: process.env.NODE_ENV,
+    SECRET_KEY: process.env.APP_SECRET_KEY,
   },
   mongodb: {
     URI: process.env.MONGODB_URI,

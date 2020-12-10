@@ -3,3 +3,4 @@
 Procfile
 query.js
 /logs
+*.rest

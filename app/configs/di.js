@@ -25,15 +25,24 @@ serviceLocator.register("bcrypt", () => {
   return require("bcryptjs");
 });
 
+serviceLocator.register("jwt", () => {
+  return require("jsonwebtoken");
+});
+
+serviceLocator.register("rjwt", () => {
+  return require("restify-jwt-community");
+});
+
 serviceLocator.register("userService", (serviceLocator) => {
   const log = serviceLocator.get("logger");
   const mongoose = serviceLocator.get("mongoose");
   const httpStatus = serviceLocator.get("httpStatus");
   const errs = serviceLocator.get("errs");
   const bcrypt = serviceLocator.get("bcrypt");
+  const jwt = serviceLocator.get("jwt");
 
   const UserService = require("../services/users");
-  return new UserService(log, mongoose, httpStatus, errs, bcrypt);
+  return new UserService(log, mongoose, httpStatus, errs, bcrypt, jwt);
 });
 
 serviceLocator.register("userController", (serviceLocator) => {

@@ -31,7 +31,9 @@ module.exports.register = (server) => {
     );
   });
 
-  server.on("restifyError", (req, res) => {
-    res.send(httpStatusCodes.INTERNAL_SERVER_ERROR, err);
+  server.on("restifyError", (req, res, err) => {
+    if (err.name === "InvalidCredentialsError") {
+      res.send(httpStatusCodes.UNAUTHORIZED, new Error(err.body.message));
+    }
   });
 };

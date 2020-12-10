@@ -28,6 +28,10 @@ const UserSchema = new mongoose.Schema(
       required: true,
       trim: true,
     },
+    role: {
+      type: String,
+      required: true,
+    },
     notes: [NoteSchema],
   },
   { timestamps: true }
