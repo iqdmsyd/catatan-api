@@ -18,7 +18,6 @@ const server = restify.createServer({
   version: ["1.0.0"],
   formatters: {
     "application/json": require("./app/lib/jsend"),
-    "text/html": require("./app/lib/html_send"),
   },
 });
 
