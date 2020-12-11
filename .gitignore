@@ -1,6 +1,7 @@
-*.env
 /node_modules
+/logs
+/test/*
+*.env
+*.rest
 Procfile
 query.js
-/logs
-*.rest
