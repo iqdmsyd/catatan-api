@@ -1,8 +1,0 @@
-NODE_PATH=.
-
-APP_NAME=catatan-api
-APP_SECRET_KEY=secretkey2020
-
-LOG_PATH=logs/catatan-api.log
-
-MONGODB_URI="mongodb+srv://catatanAPI:Qxj5Rj5VV7agQe6Q@sandbox.u6jnv.mongodb.net/catatan_api"
