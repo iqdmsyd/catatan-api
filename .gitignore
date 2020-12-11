@@ -1,5 +1,6 @@
+*.env
 /node_modules
-/logs
-/app/test/*
-*.rest
+Procfile
 query.js
+/logs
+*.rest

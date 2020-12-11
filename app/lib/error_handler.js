@@ -31,13 +31,6 @@ module.exports.register = (server) => {
     );
   });
 
-  server.on("Unauthorized", (req, res) => {
-    res.send(
-      httpStatusCodes.UNAUTHORIZED,
-      new Error("Authentication failed, try again", "UNAUTHORIZED")
-    );
-  });
-
   server.on("restifyError", (req, res, err) => {
     if (err.name === "InvalidCredentialsError") {
       res.send(httpStatusCodes.UNAUTHORIZED, new Error(err.body.message));
