@@ -1,6 +1,5 @@
 /node_modules
 /logs
 /app/test/*
-*.env
 *.rest
 query.js
